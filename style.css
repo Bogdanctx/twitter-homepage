@@ -1,4 +1,4 @@
-body  {
+body {
     margin: 0;
     background: black;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
@@ -14,17 +14,17 @@ body  {
 
     text-align: center;
 }
-.right {
-    background: black;
-    width: 930;
-    height: 920;
-}
-
 .left-bird {
     fill: white;
     width: 400;
     height: 400;
     margin-top: 25%;
+}
+
+.right {
+    background: black;
+    width: 930;
+    height: 920;
 }
 .right-bird {
     fill: rgb(214, 217, 219);
@@ -35,18 +35,6 @@ body  {
     margin-left: 35;
 }
 
-.links {
-    background: black;
-    height: 3.5%;
-    padding-top: 15px;
-    text-align: center;
-}
-.t {
-    color: rgb(113, 118, 123);
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 14px;
-}
 
 #happening-now {
     color: rgb(231, 233, 234);
@@ -55,7 +43,6 @@ body  {
     top: 100;
     right: 50;
 }
-
 #join-twitter {
     color: rgb(231, 233, 234);
     font-size: 30px;
@@ -84,28 +71,41 @@ body  {
 }
 
 .grey {
-    width: 130px;
-    height: 1px;
+    width: 130;
+    height: 1;
     background: rgb(47, 51, 54);
     vertical-align: middle;
     position: relative;
     bottom: 30;
 }
+#separator {
+    font-size: 15;
+    vertical-align: middle;
+    position: relative;
+    bottom: 30;
+    color: white;
+}
 
+#agreements {
+    color: rgb(113, 118, 123);
+    font-size: 11;
+    position: relative;
+    bottom: 50;
+}
 #have-account {
     color: white;
     font-size: 16;
 }
-#agreements {
-    color:rgb(113, 118, 123);
-    font-size: 11; 
-    position:relative;
-    bottom:50;
+
+.links {
+    background: black;
+    height: 3.5%;
+    padding-top: 15px;
+    text-align: center;
 }
-#separator {
-    font-size: 15; 
-    vertical-align: middle;
-    position: relative; 
-    bottom: 30;
-    color: white;
+.t {
+    color: rgb(113, 118, 123);
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
 }
